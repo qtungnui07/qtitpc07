@@ -7,20 +7,20 @@
     <title>welcome</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="blur">
         <nav>
             <div class="logo">DQT</div>
             <ul class="navItems">
                 <li><a href="#">home</a></li>
-                <li><a href="#">about</a></li>
+                <li><a href="#" onclick="toggle()">about</a></li>
                 <li><a href="#">download</a></li>
                 <li><a href="#">blog</a></li>
             </ul>
             <div class="links">
-                <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-discord"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@dqt21107"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.facebook.com/dinhquangtung.user07/"><i class="fab fa-facebook"></i></a>
+                <a href="https://discord.gg/s4Pdnpt7aW"><i class="fab fa-discord"></i></a>
+                <a href="https://www.instagram.com/qtungthapvl"><i class="fab fa-instagram"></i></a>
             </div>
         </nav>
         <div class="weapper">
@@ -36,8 +36,19 @@
                 </div>
             </div>
         </div>
-
     </div>
-
+    <div id="popupa">
+        <h2>Hello</h2>
+        <p>chao mungchao mungchao mungchao mungchao mungchao mungchao mungchao mungchao mungchao mungchao mungchao mungchao mungchao mungchao mung</p>
+        <li><a href="#" onclick="toggle()">CLOSE</a></li>
+    </div>
+    <script type="text/javascript">
+        function toggle(){
+            var blur = document.getElementById('blur')
+            blur.classList.toggle('active')
+            var popupa = document.getElementById('popupa')
+            popupa.classList.toggle('active')
+        }
+    </script>
 </body>
 </html>
