@@ -37,6 +37,7 @@ body {
 .header.scrolled {
     background-color:var(--bg-color);
     backdrop-filter: blur(30px);
+
 }
 .brand a{
     font-size:20px;
@@ -78,3 +79,69 @@ nav ul li a{
 nav ul li a:hover{
     border-bottom: 2px solid white;
 }
+.devices{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    line-height: 1.5;
+
+}
+
+
+.device h3{
+    font-size:3rem;
+    margin-top: 5rem;
+}
+.devices strong{
+    font-size: 2rem;
+}
+
+
+.logo-device a{
+    font-size: 5rem;
+    color:#fff;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.end{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.end p{
+    font-size:0.8rem;
+    margin-bottom: 2rem;
+}
+
+.social-end a{
+    size: 2rem;
+    color: #fff;
+    opacity: 0.3;
+    transition:opacity 3s ease;
+
+}
+.social-end a:hover {
+    opacity: 1;
+}
+.about-text h1{
+    font-size: 3rem;
+}
+.about-text p{
+    font-size: 2rem;
+}
+.social-end a:not(:last-child) {
+    margin-right: 1rem;
+}
+.end p {
+    margin-top: 1rem;}
