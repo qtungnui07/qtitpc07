@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 
 }
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
 nav{
     position: fixed;
     display: flex;
