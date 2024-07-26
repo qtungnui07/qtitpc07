@@ -21,7 +21,6 @@
     gap: 90px; 
     flex-wrap: wrap;
     margin: 0 auto;
-    margin-left: 20vh; 
 }
 
 .device-list {
@@ -45,4 +44,94 @@
 
 .display-7 {
     white-space: nowrap;
+}
+@media (max-width: 980px) and (min-width:0){
+    .device-list-container {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0; /* Reset margin-left for small screens */
+    }
+
+    .device-list-container{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0vh;
+    }
+    .break-word {
+        word-wrap: break-word; /* Allows long words to be broken and wrap onto the next line */
+        overflow-wrap: break-word; /* Same as above, but more universally supported */
+    }
+    
+    .display-7 {
+        white-space: normal; /* Allows text to wrap normally */
+        font-size:2vh;
+
+    }
+    .info-list p {
+        line-height: 1.6;
+        word-wrap: break-word;
+        width: 980px;
+        margin: 0 auto; 
+    }
+    .content-device{
+        width:980px;
+    }
+    ul{
+        padding-left:40px;
+    }
+    ul li{
+        margin-bottom: 5px;
+    }
+    h4{
+        text-align: center;
+    }
+    .image-wrapper {
+        text-align: center; 
+    }
+    
+    .image-center {
+        display: block;
+        margin: 0 auto; 
+    }
+}
+
+@media (max-width: 980px) and (min-width:770px){
+
+    .device-list{
+        margin-left: 6vh;
+    }
+    .break-word {
+        word-wrap: break-word; /* Allows long words to be broken and wrap onto the next line */
+        overflow-wrap: break-word; /* Same as above, but more universally supported */
+    }
+    
+    .display-7 {
+        white-space: nowrap;
+    }
+    .info-list p {
+        line-height: 1.6;
+        word-wrap: break-word;
+        width: 980px;
+        margin: 0 auto; 
+    }
+    .content-device{
+        width:980px;
+    }
+    ul{
+        padding-left:40px;
+    }
+    ul li{
+        margin-bottom: 5px;
+    }
+    h4{
+        text-align: center;
+    }
+    .image-wrapper {
+        text-align: center; 
+    }
+    
+    .image-center {
+        display: block;
+        margin: 0 auto; 
+    }
 }
