@@ -106,7 +106,8 @@
     }
     
     .display-7 {
-        white-space: nowrap;
+        white-space: normal;
+        width: 10000px;
     }
     .info-list p {
         line-height: 1.6;
