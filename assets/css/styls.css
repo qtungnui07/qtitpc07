@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 
 }
+body{
+    background: #fff;
+    
+}
 html{
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
@@ -82,4 +86,13 @@ nav{
 .content-about ul li{
     font-size: 15px;
     margin-bottom: 2px;
+}
+label{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
