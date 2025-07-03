@@ -105,3 +105,12 @@ body {
     margin-left: 10px;
     font-family: monospace;
 }
+
+.volume-control {
+    margin-top: 5px;
+    font-family: monospace;
+}
+
+#volumeSlider {
+    width: 100px;
+}
