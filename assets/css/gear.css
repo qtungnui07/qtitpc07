@@ -1,0 +1,147 @@
+
+.main-content {
+    padding: 48px 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 48px;
+    color: #333;
+}
+
+.devices-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 32px;
+    margin-bottom: 80px;
+}
+
+.device-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+    transition: all 0.3s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.device-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    border-color: #1877f3;
+}
+
+.device-icon {
+    font-size: 3rem;
+    color: #1877f3;
+    margin-bottom: 16px;
+}
+
+.device-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #333;
+}
+
+.device-specs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.device-specs li {
+    padding: 4px 0;
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.homelab-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 24px;
+}
+
+.homelab-item {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.homelab-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    border-color: #1877f3;
+}
+
+.homelab-icon {
+    font-size: 2.5rem;
+    color: #1877f3;
+    margin-bottom: 12px;
+}
+
+.homelab-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Dark mode styles */
+body.dark-mode .nav-header {
+    background: #2d2d2d;
+    border-bottom-color: #444;
+}
+
+body.dark-mode .nav-title {
+    color: #e0e0e0;
+}
+
+body.dark-mode .nav-links a {
+    color: #bbb;
+}
+
+body.dark-mode .nav-links a:hover {
+    color: #e0e0e0;
+    background: #444;
+}
+
+body.dark-mode .nav-links a.active {
+    color: #64b5f6;
+    background: #1a237e;
+}
+
+body.dark-mode .section-title {
+    color: #e0e0e0;
+}
+
+body.dark-mode .device-card,
+body.dark-mode .homelab-item {
+    background: #2d2d2d;
+    border-color: #444;
+    color: #e0e0e0;
+}
+
+body.dark-mode .device-title,
+body.dark-mode .homelab-name {
+    color: #e0e0e0;
+}
+
+body.dark-mode .device-specs li {
+    color: #bbb;
+}
+
+body.dark-mode .device-card:hover,
+body.dark-mode .homelab-item:hover {
+    border-color: #64b5f6;
+}
