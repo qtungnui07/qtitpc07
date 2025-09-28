@@ -55,7 +55,7 @@ body {
 .social-btn.discord   { background: #5865f2; }
 .social-btn.instagram { background: #e1306c; }
 .social-btn.github    { background: #23272d; }
-
+.social-btn.post      { background: #F2AEBB; }
 /* Hover effect */
 .social-btn:hover {
     opacity: 1;
